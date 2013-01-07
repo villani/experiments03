@@ -1,0 +1,34 @@
+Mon Jan 07 18:02:48 BRST 2013: LOG INITIALIZED
+Mon Jan 07 18:02:48 BRST 2013: Iniciando experimento 3:
+Mon Jan 07 18:02:48 BRST 2013: Obtendo as entradas do sistema a partir de conf.ini.
+Mon Jan 07 18:02:48 BRST 2013: Entradas obtidas.
+Mon Jan 07 18:02:48 BRST 2013: Lendo entradas:
+Mon Jan 07 18:02:48 BRST 2013: - Conjunto de amostras: med201212_100imgs_10lbp
+Mon Jan 07 18:02:48 BRST 2013: - Caminho da pasta de imagens: /home/villani/Documentos/ImageCLEFmed2009_train.02
+Mon Jan 07 18:02:48 BRST 2013: - Arquivo com a relacao imagem/IRMA: /home/villani/Documentos/ImageCLEFmed2009_train_codes.02.csv
+Mon Jan 07 18:02:48 BRST 2013: - Arquivo estrutura codigo irma: 1345115140_export_eng.txt
+Mon Jan 07 18:02:48 BRST 2013: - Quantidade de imagens que serao utilizadas: 100
+Mon Jan 07 18:02:48 BRST 2013: Obtendo conjunto de amostras:
+Mon Jan 07 18:02:48 BRST 2013: - O conjunto de amostras ainda nao existe em: /home/villani/workspace/experiments03/med201212_100imgs_10lbp.arff
+Mon Jan 07 18:02:48 BRST 2013: Obtendo novo conjunto de amostras: 
+Mon Jan 07 18:02:48 BRST 2013: Construindo conjunto de instancias LBP
+Mon Jan 07 18:02:48 BRST 2013: - Obtendo o conjunto de rotulos IRMA
+Mon Jan 07 18:02:48 BRST 2013: - Criando arquivo xml com a estrutura de codigos IRMA
+Mon Jan 07 18:02:48 BRST 2013: - Arquivo xml com a estrutura de codigo IRMA criado com exito
+Mon Jan 07 18:02:48 BRST 2013: - Definindo atributos do conjunto
+Mon Jan 07 18:02:48 BRST 2013: - Salvando a lista de atributos e incluindo a lista de rotulos a partir do xml
+Mon Jan 07 18:02:48 BRST 2013: Armazenando no conjunto as amostras com caracteristicas LBP
+Mon Jan 07 18:02:48 BRST 2013:  - Obtendo a relacao nome da imagem/codigo IRMA do arquivo: /home/villani/Documentos/ImageCLEFmed2009_train_codes.02.csv
+Mon Jan 07 18:02:48 BRST 2013: - Criando objeto que converte o codigo IRMA para binario e que tambem necessita do xml criado anteriormente
+Mon Jan 07 18:02:48 BRST 2013: - Obtendo caracteristicas LBP para cada imagem
+Mon Jan 07 18:03:25 BRST 2013: Novo conjunto de amostras salvo em: med201212_100imgs_10lbp.arff
+Mon Jan 07 18:03:26 BRST 2013: Avaliando classificadores: 
+Mon Jan 07 18:03:26 BRST 2013: - Instanciando avaliador
+Mon Jan 07 18:03:26 BRST 2013: - Instanciando registradores dos resultados
+Mon Jan 07 18:03:26 BRST 2013: - Instanciando classificador 01
+Mon Jan 07 18:03:26 BRST 2013: - Avaliando classificador class mulan.classifier.lazy.MLkNN
+Mon Jan 07 18:03:33 BRST 2013: - Instanciando classificador 02
+Mon Jan 07 18:03:33 BRST 2013: - Avaliando classificador class mulan.classifier.lazy.BRkNN
+Mon Jan 07 18:03:36 BRST 2013: Fim do experimento
+Mon Jan 07 18:03:36 BRST 2013: LOG FINALIZED
+

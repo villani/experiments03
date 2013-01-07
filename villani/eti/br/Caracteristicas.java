@@ -86,6 +86,7 @@ public class Caracteristicas {
 				int qtdeImagens = 0;
 				for (File imagem : imagens) {
 					if(qtdeImagens == images) break;
+					if(imagem.getName().split("\\.")[1].equals("tif")) continue;
 					//if(!imagem.canRead()) System.out.println(imagem.getAbsolutePath());
 
 					// Defino os parametros do operador LBP
@@ -121,7 +122,7 @@ public class Caracteristicas {
 				log.write("Falha ao ler uma imagem: " + e.getMessage());
 				System.exit(0);
 			} catch (Exception e) {
-				log.write("Falha ao inserir a amostra: " + e.getMessage());
+				log.write("Falha ao inserir a amostra: " + e.getClass() + " => " + e.getCause() + " => " + e.getMessage());
 				System.exit(0);
 			}
 
