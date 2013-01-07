@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Repositórios/BasesMulan.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/ImageJ.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/IrmaCode.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/LBP.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/LogBuilder.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/mulan.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/RelationBuilder.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/weka.jar"/>
+	<classpathentry kind="lib" path="D:/Repositórios/XmlIrmaCodeBuilder.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
